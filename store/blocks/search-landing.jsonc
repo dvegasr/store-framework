@@ -1,0 +1,29 @@
+{
+    "store.custom#landing": {
+        "blocks": [
+            "image#landingbanner",
+            "search-result-layout.customQuery"
+        ]
+    },
+    "image#landingbanner": {
+        "props": {
+            "src": "https://boudencl.vteximg.com.br/arquivos/VX_LANDING1-bp.jpg",
+            "minWidth": "100%"
+        }
+    },
+    "search-result-layout.customQuery": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByReleaseDateDESC",
+                "hideUnavailableItems": true,
+                "maxItemsPerPage": 8,
+                "queryField": "camera",
+                "mapField": "ft",
+                "skusFilter": "ALL_AVAILABLE"
+            },
+            "blocks": [
+                "search-result-layout.desktop"
+            ]
+        }
+    }
+}
